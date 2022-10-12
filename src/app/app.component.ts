@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clase-3-b';
+  public entrada : number = 1;
+
+  out(event : any): void{
+    this.entrada += event;
+  }
 }
